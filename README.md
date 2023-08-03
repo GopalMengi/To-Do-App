@@ -1,26 +1,73 @@
-# flask_mongo_todo_list
+<div align="center" id="top"> 
+  <img src="https://github.com/GopalMengi/To-Do-App/blob/main/screenshot.png" alt="Code" />
+  &#xa0;
 
-### <a href="https://mclbdn-todo.herokuapp.com">Try running this app here.</a>
+</div>
 
-TODO list CRUD app using Flask and Mongo DB Atlas (Cloud DBaaS for MongoDB).
+<h1 align="center">To Do App</h1>
 
-## Challenges I faced
-* This was my first time using NoSQL DB and initially, I was a bit confused, but I got quickly used to it and I have to say that document databases are my favorite now!
-* I was receiving H12 - Request timeout error on Heroku. Fortunatelly, the solution wasn't so hard to find: If you are running Mongo's Atlas DB (Cloud DBaaS for MongoDB), but also want to deploy your app with a database on Heroku, it's necessary to allow all IP addresses to access this DB.
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/muskaan712/ToDoApp?color=56BEB8">
 
-## Usage
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/muskaan712/ToDoApp?color=56BEB8">
 
-* First, clone the repo:
-```
-git clone https://github.com/mclbdn/flask_mongo_todo_list
-```
-* Then, install python packages from requirements.txt:
-```
-pip install -r requirements.txt
-```
-* Set your own environment variables.
-* Set your own MongoDB Atlas database and collection.
-* Run `python3 main.py`.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/muskaan712/ToDoApp?color=56BEB8">
 
-## Screenshot
-<img src="https://raw.githubusercontent.com/mclbdn/flask_mongo_todo_list/main/screenshot.png" width="400" height="600">
+  <img alt="Github issues" src="https://img.shields.io/github/issues/muskaan712/ToDoApp?color=56BEB8" /> 
+
+  <img alt="Github forks" src="https://img.shields.io/github/forks/muskaan712/ToDoApp?color=56BEB8" />
+
+  <img alt="Github stars" src="https://img.shields.io/github/stars/muskaan712/ToDoApp?color=56BEB8" />
+</p>
+
+<!-- Status -->
+
+<h4 align="center"> 
+	🚧 🚀 Flask based To Do App using MongoDB. 🚧
+</h4> 
+
+<hr>
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#man_office_worker-contributing">Contributing</a> &#xa0; | &#xa0;
+  <a href="https://github.com/muskaan712" target="_blank">Author</a>
+</p>
+
+<br>
+
+## :dart: About ##
+
+This is a simple to do app. The user can perform the basic CRUD Operations in the interface. The app will access list items through object ID.
+
+## :rocket: Technologies ##
+
+The following tools were used in this project:
+
+- [Python](https://downloads.python.org/)
+- [Pymongo](https://pymongo.readthedocs.io/)
+- [flask](https://flask.palletsprojects.com/)
+- [mongodb](https://www.mongodb.com/)
+- [HTML]
+- [CSS]
+- [Heroku for Deployment]
+
+## :white_check_mark: Requirements ##
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Python 3.8](https://downloads.python.org/), and the above Libraries installed.
+
+# :man_office_worker: Contributing ##
+For major changes, please open an issue first to discuss what you would like to change.
+
+## :memo: License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+
+Made with :heart: by <a href="https://github.com/GopalMengi" target="_blank">Gopal Mengi</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
